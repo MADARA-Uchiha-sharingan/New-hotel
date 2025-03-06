@@ -13,18 +13,13 @@ const Contact = () => {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
-      transition: {
-        staggerChildren: 0.2,
-      },
+      transition: { staggerChildren: 0.2 },
     },
   };
 
   const itemVariants = {
     hidden: { y: 20, opacity: 0 },
-    visible: {
-      y: 0,
-      opacity: 1,
-    },
+    visible: { y: 0, opacity: 1 },
   };
 
   return (
@@ -78,15 +73,15 @@ const Contact = () => {
                   <span>WhatsApp: +977 985-6045417</span>
                 </a>
                 <a
-                  href="mailto:contact@pathannapurna.com"
+                  href="mailto:hotelpathannapurna@gmail.com"
                   className="flex items-center text-gray-600 dark:text-gray-300 hover:text-emerald-500 dark:hover:text-emerald-400 transition-colors"
                 >
                   <Mail className="w-5 h-5 mr-3" />
-                  <span>contact@pathannapurna.com</span>
+                  <span>hotelpathannapurna@gmail.com</span>
                 </a>
                 <div className="flex items-center text-gray-600 dark:text-gray-300">
                   <MapPin className="w-5 h-5 mr-3" />
-                  <span>Ghandruk, Annapurna Region, Nepal</span>
+                  <span> Simpani, Annapurna Region, Nepal</span>
                 </div>
                 <a
                   href="https://www.facebook.com/PatAnnapurnahotel/"
@@ -149,7 +144,7 @@ const Contact = () => {
               </h3>
               <div className="h-[600px] rounded-lg overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3516.2279657805!2d83.8088!3d28.3102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDE4JzM3LjIiTiA4M8KwNDgnMzEuNyJF!5e0!3m2!1sen!2snp!4v1635825891619!5m2!1sen!2snp"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3515.0000000000!2d84.368456!3d28.2244567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x123456789abcdef!2sACAP%20Entry%20Counter%2C%20Simpani%20Bagaicha%2C%20Besisahar%2C%20Lamjung%2C%20Nepal!5e0!3m2!1sen!2snp!4v1635825891619!5m2!1sen!2snp"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

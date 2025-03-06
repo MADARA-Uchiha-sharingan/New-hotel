@@ -52,6 +52,11 @@ const attractions = [
     distance: '3 hours',
     image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80',
   },
+  {
+    name: 'Bhujung',
+    distance: '2.5 hours',
+    image: 'https://images.unsplash.com/photo-1604014237744-960c3d26a573?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80',
+  },
 ];
 
 const Services = () => {
@@ -144,7 +149,7 @@ const Services = () => {
           >
             Nearby Attractions
           </motion.h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {attractions.map((attraction, index) => (
               <motion.div
                 key={index}
