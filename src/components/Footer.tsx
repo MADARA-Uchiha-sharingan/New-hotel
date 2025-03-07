@@ -46,7 +46,7 @@ const Footer = () => {
               </a>
               <a href="mailto:contact@pathannapurna.com" className="flex items-center text-gray-400 hover:text-white transition-colors">
                 <Mail className="w-5 h-5 mr-2" />
-                contact@pathannapurna.com
+                hotel@pathannapurna.com
               </a>
               <a
                 href="https://www.facebook.com/PatAnnapurnahotel/"
