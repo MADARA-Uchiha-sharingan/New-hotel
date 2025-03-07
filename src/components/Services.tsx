@@ -55,7 +55,7 @@ const attractions = [
   {
     name: 'Bhujung',
     distance: '2.5 hours',
-    image: 'https://images.unsplash.com/photo-1604014237744-960c3d26a573?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80',
+    image: 'https://unsplash.com/photos/a-village-on-the-side-of-a-mountain-3paRVSMldqk',
   },
 ];
 
